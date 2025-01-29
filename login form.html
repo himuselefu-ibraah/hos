@@ -1,0 +1,93 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Login</title>
+  <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+
+    <script src="bootstrap/js/bootstrap.min.js">
+
+    </script>
+</head>
+<body>
+<h1 class="text-center">Sign In Using Your Account</h1>
+
+<form action=""class="container">
+  <!--row-->
+<div class="row mb-3">
+  <div class="col">
+    <label for="em" class="form-label">Email</label>
+    <input type="email"id="em" class="form-control" required="required">
+  </div>
+  <div class="col">
+    <label for="ps">Password</label>
+     <input type="password"id="ps" class="form-control" required="required">
+  </div>
+</div>
+  <!--end row-->
+<div>
+  <label for="ad" class="form-label">Address</label>
+  <input type="text" placeholder="1234 Main 51" class="form-control" id="ad" required="required">
+
+  <label for="ad2" class="form-label">Address 2</label>
+  <input type="text" placeholder="Apartment,studio,or floor" class="form-control" id="ad2" required="required">
+
+</div>
+
+  <!--row-->
+<div class="row">
+  <div class="col">
+
+    <label for="ct" class="form-label">City</label>
+    <input type="text" id="ct" class="form-control" required="required">
+
+  </div>
+
+    <div class="col mt-5">
+
+    <label for="st" class="form-label">State</label>
+      <select name="" id="st">
+         <option value="Choose One" disabled="disabled">Choose One</option>
+        <option value="Kenya">Kenya</option>
+        <option value="China">China</option>
+        <option value="Japan">Japan</option>
+        <option value="India">India</option>
+      </select>
+
+  </div>
+
+
+    <div class="col">
+
+    <label for="zp" class="form-label">Zip</label>
+    <input type="text" id="zp" class="form-control" required="required">
+
+  </div>
+
+</div>
+ <!--row-->
+  <input class="form-check-input" type="checkbox" id="ch" required="required">
+  <label for="ch" class="form-check-label">Check me out</label>
+
+
+
+  <br><br>
+  <button class="btn btn-primary">Sign in</button>
+</form>
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>
